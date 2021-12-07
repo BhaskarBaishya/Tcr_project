@@ -1,0 +1,105 @@
+body
+{
+    background-color: rgb(243, 234, 213);
+    color: rgb(2, 2, 2);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    padding: 20px;
+}
+
+.container {
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-content { background-color: rgb(252, 126, 126);}
+
+#intro-img{
+    background-image: url(/img/la\ pinoz.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 425px;
+    opacity: 1;
+}
+
+.text-white{
+    color: rgb(0, 0, 0);
+}
+.page-header-container{text-align: center;}
+
+.page-header{
+    display: inline-block;
+    vertical-align: baseline;
+    margin-top: 50px;
+    margin-bottom: 35px;
+    font-size: 2.1rem;
+    font-weight: 1000;
+
+}
+.section-header{
+    color: rgb(3, 3, 3) ;
+    text-align: center;
+    font-weight: 400px;
+    font-size: 1.5rem;
+    margin-top: 30px ;
+    margin-bottom: 30px;
+}
+
+td {
+    text-align: center;
+    padding: 10px 15px;
+}
+
+.text-left{
+    text-align: left;
+}
+
+th{
+    color: rgb(0, 0, 0);
+    font-weight: 400px;
+    font-size: 1.2rem;
+    padding-left: 15px;
+    padding-right: 15px;   
+}
+tr:nth-child(odd) {
+    background-color: rgb(252, 181, 181);
+}
+
+tr.tr-header{
+    background-color: white;
+    height: 10px;
+}
+
+.section-small{
+    max-width: 400px ;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+}
+
+p{
+    font-size: 1rem;
+    line-height: 1.7;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.footer-text{
+    font-size: 0.9rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.footer-link
+{
+    color: whitesmoke;
+    text-decoration: none;
+
+}
+
+.footer-link:hover{
+    color:white
+
+}
